@@ -1,6 +1,6 @@
 - 👋 Hi, I’m INDRANIL DE
 - 👀 I’m interested in Java Development
-- 🌱 I’m currently learning Reactand Spring Boot
+- 🌱 I’m currently learning React and Spring Boot
 - 💞️ I’m looking to collaborate on Web Development Projects
 - 📫 How to reach me @ indranil.de.2001@gmail.com
 - 😄 Pronouns: He/Him
