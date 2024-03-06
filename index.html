@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CricketGame.com</title>
+        <link rel="stylesheet" href="Random.css">
+        <script src="Random.js"></script>
+    </head>
+    <body>
+        <h1> Cricket Game !!</h1>
+        <div id="container">
+            <div class="section">
+                <label style="display: block; font-size: 25px; font-family: Arial;">Enter Here:</label>
+                <input id="your-entry" type="number" min="0" max="6">
+                <button id="reset" onclick="reset()">Reset</button>
+            </div>
+            <div class="section">
+                <label style="display: block; font-size: 25px; font-family: Arial; margin-bottom: 5px;">Computer:</label>
+                <div id="box">
+                    <label id="computer" style="font-size: 60px; font-family: helvetica;">--</label>
+                </div>
+                <button id="trigger" onclick="go()">GO!</button>
+            </div>
+            <div class="section">
+                <label style="display: block; font-size: 25px; font-family: Arial;">RUNS : </label>
+                <div id="box">
+                    <label id="runs" style="font-size: 60px; font-family: helvetica;">0</label>
+                </div>
+                <label style="display: block; font-size: 25px; font-family: Arial;">WICKET :</label>
+                <div id="box">
+                    <label id="wicket" style="font-size: 60px; font-family: helvetica;">0</label>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
